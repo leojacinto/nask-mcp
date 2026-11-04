@@ -8,6 +8,8 @@ Built with the ServiceNow Fluent SDK (`NowAssistSkillConfig`). No direct LLM cal
 > and the `<...>` placeholders with your own values. OOB platform sys_ids are left
 > intact — they are the same on every instance.
 
+If you want to prompt away in Build Agent, get the prompt [here](https://github.com/leojacinto/nask-mcp/blob/main/cr_skill.md).
+
 ---
 
 ## 1. Identity / record map
