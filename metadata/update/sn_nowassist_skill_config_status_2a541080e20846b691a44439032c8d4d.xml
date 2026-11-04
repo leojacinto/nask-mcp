@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_nowassist_skill_config_status">
+    <sn_nowassist_skill_config_status action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <in_mobile_active>false</in_mobile_active>
+        <in_mobile_roles/>
+        <in_product_active>true</in_product_active>
+        <in_product_roles/>
+        <skill_config display_value="LF CR Summary Fluent">128c4f10467c4f67b70e7c8f782dfff3</skill_config>
+        <sys_class_name>sn_nowassist_skill_config_status</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-03 23:16:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>2a541080e20846b691a44439032c8d4d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="LF CR Summary Fluent" source="x_snc_lf_cr_summ_0">5463f45e3b1c1f10a0db3141a3e45abf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LF CR Summary Fluent">5463f45e3b1c1f10a0db3141a3e45abf</sys_scope>
+        <sys_update_name>sn_nowassist_skill_config_status_2a541080e20846b691a44439032c8d4d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-03 23:31:13</sys_updated_on>
+    </sn_nowassist_skill_config_status>
+</record_update>

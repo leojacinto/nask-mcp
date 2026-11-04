@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_agent_access_role_configuration">
+    <sys_agent_access_role_configuration action="INSERT_OR_UPDATE">
+        <action>limit_to_roles</action>
+        <agent>128c4f10467c4f67b70e7c8f782dfff3</agent>
+        <agent_table>sn_nowassist_skill_config</agent_table>
+        <allow_all_session_roles>false</allow_all_session_roles>
+        <description/>
+        <name>LF CR Summary Fluent</name>
+        <role_list/>
+        <sys_class_name>sys_agent_access_role_configuration</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-03 23:16:36</sys_created_on>
+        <sys_id>2c350385590e47e9bb91323f6add1efe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>LF CR Summary Fluent</sys_name>
+        <sys_package display_value="LF CR Summary Fluent" source="x_snc_lf_cr_summ_0">5463f45e3b1c1f10a0db3141a3e45abf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LF CR Summary Fluent">5463f45e3b1c1f10a0db3141a3e45abf</sys_scope>
+        <sys_update_name>sys_agent_access_role_configuration_2c350385590e47e9bb91323f6add1efe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-03 23:16:36</sys_updated_on>
+    </sys_agent_access_role_configuration>
+</record_update>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_gen_ai_feature_mapping">
+    <sys_gen_ai_feature_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <customer_updatable>false</customer_updatable>
+        <default_tier>false</default_tier>
+        <document>d80b56f9fe27426084819e4c10561f02</document>
+        <document_table>sys_one_extend_capability</document_table>
+        <feature_name>LF CR Summary Fluent</feature_name>
+        <licensable>true</licensable>
+        <metadata/>
+        <skip_on_group_call>false</skip_on_group_call>
+        <sys_class_name>sys_gen_ai_feature_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-03 23:16:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>99d0ed5a8f6e45c08be38519a74f9c50</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>LF CR Summary Fluent</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="LF CR Summary Fluent" source="x_snc_lf_cr_summ_0">5463f45e3b1c1f10a0db3141a3e45abf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LF CR Summary Fluent">5463f45e3b1c1f10a0db3141a3e45abf</sys_scope>
+        <sys_update_name>sys_gen_ai_feature_mapping_99d0ed5a8f6e45c08be38519a74f9c50</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-03 23:16:36</sys_updated_on>
+        <tier/>
+    </sys_gen_ai_feature_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=99d0ed5a8f6e45c08be38519a74f9c50"/>
+</record_update>

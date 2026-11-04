@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_one_extend_definition_attribute">
+    <sys_one_extend_definition_attribute action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <apply_filter>false</apply_filter>
+        <attribute_label/>
+        <capability display_value="LF CR Summary Fluent">d80b56f9fe27426084819e4c10561f02</capability>
+        <choice_list/>
+        <contains_large_input>false</contains_large_input>
+        <data_type>string</data_type>
+        <default_value/>
+        <definition/>
+        <description>Response Text</description>
+        <group/>
+        <hidden>false</hidden>
+        <info/>
+        <label>response</label>
+        <mandatory>false</mandatory>
+        <name>response</name>
+        <order>100</order>
+        <schema/>
+        <sys_class_name>sys_one_extend_definition_attribute</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-03 23:16:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e84cb9a32c8146bebc4072267e693dd0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>response</sys_name>
+        <sys_package display_value="LF CR Summary Fluent" source="x_snc_lf_cr_summ_0">5463f45e3b1c1f10a0db3141a3e45abf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LF CR Summary Fluent">5463f45e3b1c1f10a0db3141a3e45abf</sys_scope>
+        <sys_update_name>sys_one_extend_definition_attribute_e84cb9a32c8146bebc4072267e693dd0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-03 23:16:38</sys_updated_on>
+        <translate>false</translate>
+        <truncate>false</truncate>
+        <type>output</type>
+        <user_query>false</user_query>
+    </sys_one_extend_definition_attribute>
+    <sys_translated_text action="delete_multiple" query="documentkey=e84cb9a32c8146bebc4072267e693dd0"/>
+</record_update>

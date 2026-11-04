@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_mcp_tool_definition">
+    <sn_mcp_tool_definition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <annotations/>
+        <description>Summarizes a ServiceNow change request from plain text fields. Supply the change request short description, description, priority, state, activity stream and any other details as plain text; returns a single JSON object whose sections vary by state (Assess, Implement, Closed or full).</description>
+        <duplicated_from/>
+        <label>Summarize change request</label>
+        <mcp_app/>
+        <name>x_snc_lf_cr_summ_0.summarize_change_request</name>
+        <servers_associated>LF CR Summary MCP Server</servers_associated>
+        <source>custom</source>
+        <sys_class_name>sn_mcp_tool_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-04 00:00:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>62ee385e3bdc1f10a0db3141a3e45a19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Summarize change request</sys_name>
+        <sys_package display_value="LF CR Summary Fluent" source="x_snc_lf_cr_summ_0">5463f45e3b1c1f10a0db3141a3e45abf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LF CR Summary Fluent">5463f45e3b1c1f10a0db3141a3e45abf</sys_scope>
+        <sys_update_name>sn_mcp_tool_definition_62ee385e3bdc1f10a0db3141a3e45a19</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-04 00:00:21</sys_updated_on>
+        <tool_artifact_id>128c4f10467c4f67b70e7c8f782dfff3</tool_artifact_id>
+        <tool_category display_value="AI skill">a73441f7ff1a32104524ffffffffffca</tool_category>
+    </sn_mcp_tool_definition>
+</record_update>

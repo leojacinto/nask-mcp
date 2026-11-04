@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_one_extend_definition_attribute">
+    <sys_one_extend_definition_attribute action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <apply_filter>false</apply_filter>
+        <attribute_label/>
+        <capability display_value="LF CR Summary Fluent">d80b56f9fe27426084819e4c10561f02</capability>
+        <choice_list/>
+        <contains_large_input>false</contains_large_input>
+        <data_type>string</data_type>
+        <default_value>Risk: Moderate. Risk impact analysis: potential downtime of 30 minutes, impact limited to minor disruptions during deployment. Implementation plan: deploy the update in a controlled environment, monitor during off-peak hours, and validate successful installation. Test plan: perform functional and regression testing in a staging environment before production deployment. Back out plan: roll back to the previous stable version if issues occur, using system snapshots taken before deployment. Justification: upgrade to PowerKart Major Release 2.1 to enhance system performance and add new features. Conflict status: Conflict. Category: Applications Software.</default_value>
+        <definition/>
+        <description>Any other change request details such as risk, plan, back out plan, conflicts, policies, incidents, affected CIs and impacted services, as plain text</description>
+        <group/>
+        <hidden>false</hidden>
+        <info/>
+        <label>other details</label>
+        <mandatory>false</mandatory>
+        <name>other_details</name>
+        <order>100</order>
+        <schema/>
+        <sys_class_name>sys_one_extend_definition_attribute</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-03 23:16:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>daba2675a9f94ccaa5247aaa9ab87d51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>other_details</sys_name>
+        <sys_package display_value="LF CR Summary Fluent" source="x_snc_lf_cr_summ_0">5463f45e3b1c1f10a0db3141a3e45abf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LF CR Summary Fluent">5463f45e3b1c1f10a0db3141a3e45abf</sys_scope>
+        <sys_update_name>sys_one_extend_definition_attribute_daba2675a9f94ccaa5247aaa9ab87d51</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-03 23:16:38</sys_updated_on>
+        <translate>false</translate>
+        <truncate>false</truncate>
+        <type>input</type>
+        <user_query>false</user_query>
+    </sys_one_extend_definition_attribute>
+    <sys_translated_text action="delete_multiple" query="documentkey=daba2675a9f94ccaa5247aaa9ab87d51"/>
+</record_update>

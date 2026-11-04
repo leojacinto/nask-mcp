@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_nowassist_skill_config">
+    <sn_nowassist_skill_config action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <description><![CDATA[Summarizes a change request from plain text fields so it can be served as an MCP tool.]]></description>
+        <edited_in_nask>false</edited_in_nask>
+        <in_product_active>false</in_product_active>
+        <in_product_roles/>
+        <internal_name>lf_cr_summary_fluent.128c4f10467c4f67b70e7c8f782dfff3</internal_name>
+        <is_template>false</is_template>
+        <name>LF CR Summary Fluent</name>
+        <nap_skill_applicability/>
+        <order>100</order>
+        <parent/>
+        <skill_family display_value="Other">a5efaf1c93764210aa5730f16489186d</skill_family>
+        <skill_id>d80b56f9fe27426084819e4c10561f02</skill_id>
+        <skill_table>sys_one_extend_capability</skill_table>
+        <state>1</state>
+        <success_message/>
+        <sys_class_name>sn_nowassist_skill_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-03 23:16:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>128c4f10467c4f67b70e7c8f782dfff3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>LF CR Summary Fluent</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="LF CR Summary Fluent" source="x_snc_lf_cr_summ_0">5463f45e3b1c1f10a0db3141a3e45abf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LF CR Summary Fluent">5463f45e3b1c1f10a0db3141a3e45abf</sys_scope>
+        <sys_update_name>sn_nowassist_skill_config_128c4f10467c4f67b70e7c8f782dfff3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-03 23:29:39</sys_updated_on>
+    </sn_nowassist_skill_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=128c4f10467c4f67b70e7c8f782dfff3"/>
+</record_update>

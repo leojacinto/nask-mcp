@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_wdf_external_connection_mapping">
+    <sys_wdf_external_connection_mapping action="INSERT_OR_UPDATE">
+        <asset_id>fafef01a3b505f10a0db3141a3e45ace</asset_id>
+        <connection_name>AutoGen-x_snc_lf_cr_summ_0_lf_cr_summary-1793750438142-OAuthProviderAlias</connection_name>
+        <connection_type>outbound</connection_type>
+        <connector_type>7bf7f2123decf210f87762d639ed247b</connector_type>
+        <external_system/>
+        <sys_class_name>sys_wdf_external_connection_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-04 00:00:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>32fef01a3b505f10a0db3141a3e45ad3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AutoGen-x_snc_lf_cr_summ_0_lf_cr_summary-1793750438142-OAuthProviderAlias</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="LF CR Summary Fluent" source="x_snc_lf_cr_summ_0">5463f45e3b1c1f10a0db3141a3e45abf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LF CR Summary Fluent">5463f45e3b1c1f10a0db3141a3e45abf</sys_scope>
+        <sys_update_name>sys_wdf_external_connection_mapping_32fef01a3b505f10a0db3141a3e45ad3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-04 00:00:38</sys_updated_on>
+        <table_name>sys_alias</table_name>
+    </sys_wdf_external_connection_mapping>
+</record_update>

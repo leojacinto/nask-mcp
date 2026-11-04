@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_one_extend_capability">
+    <sys_one_extend_capability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Summarizes a change request from plain text fields so it can be served as an MCP tool.</description>
+        <external>false</external>
+        <metadata/>
+        <name>LF CR Summary Fluent</name>
+        <offglide_enabled>false</offglide_enabled>
+        <short_description>Summarizes a change request from plain text fields</short_description>
+        <sys_class_name>sys_one_extend_capability</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-03 23:16:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d80b56f9fe27426084819e4c10561f02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>LF CR Summary Fluent</sys_name>
+        <sys_package display_value="LF CR Summary Fluent" source="x_snc_lf_cr_summ_0">5463f45e3b1c1f10a0db3141a3e45abf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LF CR Summary Fluent">5463f45e3b1c1f10a0db3141a3e45abf</sys_scope>
+        <sys_update_name>sys_one_extend_capability_d80b56f9fe27426084819e4c10561f02</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-03 23:16:37</sys_updated_on>
+        <type>skill</type>
+    </sys_one_extend_capability>
+    <sys_translated_text action="delete_multiple" query="documentkey=d80b56f9fe27426084819e4c10561f02"/>
+</record_update>

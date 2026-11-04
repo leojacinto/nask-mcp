@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_generative_ai_prompt_config">
+    <sys_generative_ai_prompt_config action="INSERT_OR_UPDATE">
+        <ai_config display_value="OneExtend Capability Definition: LF CR Summary Fluent (Azure OpenAI)">2e46b3e2170f47508f828856f85b6cf5</ai_config>
+        <definition display_value="LF CR Summary Fluent (Azure OpenAI)">a414b47dc5f64b4bb9c9b5baab943450</definition>
+        <filter_properties/>
+        <filter_type>default</filter_type>
+        <is_default>true</is_default>
+        <order>0</order>
+        <sys_class_name>sys_generative_ai_prompt_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-03 23:16:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>64342e603f61472fa70476a4af42d144</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2e46b3e2170f47508f828856f85b6cf5</sys_name>
+        <sys_package display_value="LF CR Summary Fluent" source="x_snc_lf_cr_summ_0">5463f45e3b1c1f10a0db3141a3e45abf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LF CR Summary Fluent">5463f45e3b1c1f10a0db3141a3e45abf</sys_scope>
+        <sys_update_name>sys_generative_ai_prompt_config_64342e603f61472fa70476a4af42d144</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-03 23:16:37</sys_updated_on>
+    </sys_generative_ai_prompt_config>
+</record_update>

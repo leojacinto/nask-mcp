@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_generative_ai_config">
+    <sys_generative_ai_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <additional_configurations>{"skill_config_id":"128c4f10467c4f67b70e7c8f782dfff3"}</additional_configurations>
+        <ai_suggested>false</ai_suggested>
+        <definition>a414b47dc5f64b4bb9c9b5baab943450</definition>
+        <definition_table>sys_one_extend_capability_definition</definition_table>
+        <documentation/>
+        <max_tokens>2000</max_tokens>
+        <min_word_count>-1</min_word_count>
+        <model>gpt-4o</model>
+        <name>Change summarization Closed</name>
+        <parent/>
+        <prompt>You are given all the details for a change request as plain text.
+
+Short description: {{short_description}}
+Description: {{description}}
+Priority: {{priority}}
+State: {{state}}
+Other details (may include scheduling conflicts, applied change policies, incidents caused by the change, affected configuration items, impacted services, close code and close notes): {{other_details}}
+Activity stream (comments and work notes with dates): {{activities}}
+
+Summarize every detail mentioned above, as requested in the following sections:
+- Objective
+In the Objective section, offer a paragraph summarizing basic details of the change request and additionally give justification if available.
+- Plan
+The plan section provides a paragraph with emphasis on implementation plan, including test plan and back out plan for the change request.
+- Close notes
+The Close notes section provides a succinct paragraph summarizing the final outcome of the change request based on the close code and close notes. If not given, return N/A.
+- Risk
+Firstly, only from the given information, explain in a paragraph the risk involved in the implementation of this change request. Secondly, check the scheduling conflict information: 1. If there is none, say that "The conflict status of this change request is &lt;Conflict status for change request&gt;" using the status if given, otherwise N/A. 2. If there is too much conflict information, say that "There is too much information on conflicts to be shown." 3. If conflict information is available, display the conflict count as, "&lt;Conflict count&gt; conflicts are associated with this change request" and mention a few types of conflicts.
+- Incidents caused by change
+If incidents caused by this change are given, provide the count formatted as, "&lt;Incidents Caused By Change count&gt; incidents are caused by this change request." Otherwise return N/A.
+- Applied policies
+Only based on the applied change policy information, provide: "&lt;Applied Change Policy count&gt; policies were applied to this change request." and then "The latest applied change policy is &lt;Applied change policy's name&gt;, for which the action taken was &lt;Action taken regarding this policy&gt;." Otherwise return N/A.
+- Affected CIs
+Based on only the affected configuration item information, provide one line: "&lt;Configuration items count&gt; configuration items are affected," and then mention only up to three of them. Otherwise return N/A.
+- Impacted services
+Based on only the impacted service information, provide one line: "&lt;Services count&gt; services are impacted," and then mention only up to three of them. Otherwise return N/A.
+
+Only use the provided information and generate content only for the sections listed above. Make sure to always respond with full sentences and to include all details and entities mentioned. Do not generate any information which is not provided. If you are not absolutely sure, return N/A for that section. DO NOT GENERATE ANY EXPLANATION, REASONING, COMMENTARY OR DESCRIPTION ABOUT THE SUMMARY.
+Ensure that the final output is a single valid JSON object, not multiple JSON snippets.
+
+{&lt;section_name&gt;: &lt;section_details&gt;}</prompt>
+        <prompt_template_role>user</prompt_template_role>
+        <provider_company/>
+        <request_tokens>63286</request_tokens>
+        <show_in_prompt_library>true</show_in_prompt_library>
+        <state>published</state>
+        <structured_output_enabled>false</structured_output_enabled>
+        <structured_output_schema/>
+        <sys_class_name>sys_generative_ai_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-03 23:16:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4ee34a6fce4a412485dcec0cb3b89a1c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>a414b47dc5f64b4bb9c9b5baab943450</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="LF CR Summary Fluent" source="x_snc_lf_cr_summ_0">5463f45e3b1c1f10a0db3141a3e45abf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LF CR Summary Fluent">5463f45e3b1c1f10a0db3141a3e45abf</sys_scope>
+        <sys_update_name>sys_generative_ai_config_4ee34a6fce4a412485dcec0cb3b89a1c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-03 23:29:39</sys_updated_on>
+        <temperature>0.2</temperature>
+        <thinking_tokens>0</thinking_tokens>
+        <version>1</version>
+    </sys_generative_ai_config>
+</record_update>

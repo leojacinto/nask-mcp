@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias">
+    <sys_alias action="INSERT_OR_UPDATE">
+        <configuration_template/>
+        <connection_type>http_connection</connection_type>
+        <description/>
+        <id>x_snc_lf_cr_summ_0.AutoGen_x_snc_lf_cr_summ_0_lf_cr_summary_1793750438142_OAuthProviderAlias</id>
+        <is_internal>false</is_internal>
+        <multiple_connections>false</multiple_connections>
+        <name>AutoGen-x_snc_lf_cr_summ_0_lf_cr_summary-1793750438142-OAuthProviderAlias</name>
+        <parent/>
+        <retry_policy/>
+        <sys_class_name>sys_alias</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-04 00:00:38</sys_created_on>
+        <sys_id>fafef01a3b505f10a0db3141a3e45ace</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_lf_cr_summ_0.AutoGen_x_snc_lf_cr_summ_0_lf_cr_summary_1793750438142_OAuthProviderAlias</sys_name>
+        <sys_package display_value="LF CR Summary Fluent" source="x_snc_lf_cr_summ_0">5463f45e3b1c1f10a0db3141a3e45abf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LF CR Summary Fluent">5463f45e3b1c1f10a0db3141a3e45abf</sys_scope>
+        <sys_update_name>sys_alias_fafef01a3b505f10a0db3141a3e45ace</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-04 00:00:38</sys_updated_on>
+        <type>connection</type>
+    </sys_alias>
+    <sys_translated_text action="delete_multiple" query="documentkey=fafef01a3b505f10a0db3141a3e45ace"/>
+</record_update>
